@@ -16,7 +16,6 @@ CATEGORIES = {
     "Personal-Coding-Projects": [".py", ".java", ".js", ".html", ".css", ".c"]
 }
 
-
 class DownloadHandler(FileSystemEventHandler):
     def on_created(self, event):
         """
